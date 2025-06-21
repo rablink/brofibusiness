@@ -51,7 +51,7 @@
       border-radius: 10px;
       box-shadow: 0 2px 5px rgba(0,0,0,0.1);
       padding: 20px;
-      max-width: 300px;
+      max-width: 3000px;
       text-align: left;
     }
     .card h3 {
@@ -76,7 +76,7 @@
       margin-top: 20px;
     }
     body {
-  background: linear-gradient(rgba(170, 243, 182, 0.8), rgba(203, 250, 184, 0.8)), 
+  background: linear-gradient(rgba(138, 173, 144, 0.8), rgba(151, 189, 136, 0.8)),  
               url('background.png') no-repeat center center fixed;
   background-size: cover;
   color: #333;
@@ -186,7 +186,7 @@
   margin: 15px 0;
 }
 .faq-item.active .faq-answer {
-  max-height: 300px; /* cukup untuk beberapa paragraf */
+  max-height: 3000px; /* cukup untuk beberapa paragraf */
 }
 
 .slides img {
@@ -301,7 +301,7 @@ ul.checklist li::before {
 <body>
   <header>
     <img src="logo.jpg" alt="Logo Brofi Business">
-    <h1>WELCOME TO <br>@brofi.business
+    <h1>WELCOME TO <br>Brofi Business
 </h1>
 <section style="text-align: center; margin: 40px 0;">
   <h2 style="font-size: 20px;">Total Member Aktif:</h2>
@@ -316,7 +316,7 @@ let counter = document.getElementById("counter");
 
 function updateCounter() {
   if (count < target) {
-    count += Math.floor(Math.random() * 99) + 1;
+    count += Math.floor(Math.random() * 300) + 1;
     if (count > target) count = target;
     counter.textContent = count.toLocaleString();
     setTimeout(updateCounter, speed);
@@ -358,13 +358,7 @@ updateCounter();
 </div>
 
   </header>
-<p style="text-align: center; font-family: 'Poppins', sans-serif; margin-top: 24px; font-size: 16px; color: #333;">
-  Sebelum join, silakan cek juga story dan sorotan di akun 
-  <a href="https://www.instagram.com/brofi.business" target="_blank"
-     style="display: inline-block; padding: 6px 14px; margin-left: 8px; background: linear-gradient(135deg, #f58529, #dd2a7b, #8134af); color: #fff; font-weight: 500; border-radius: 8px; text-decoration: none; box-shadow: 0 2px 6px rgba(0,0,0,0.15); transition: all 0.3s ease;">
-    IG resmi kami
-  </a>
-</p>
+
 <div id="chat1" class="floating-chat">💬 “Awalnya ragu, ternyata dibimbing dari nol sampai bisa! -Dinda”</div>
 <div id="chat2" class="floating-chat">💬 “Dapet bahan promosi lengkap tinggal upload doang!” -Rani</div>
 <div id="chat3" class="floating-chat">💬 “Cuma modal HP dan kuota udah bisa bisnis online!” -Adit</div>
@@ -374,9 +368,9 @@ updateCounter();
     <h2 class="section-title">Join Dan Raih Keuntungan</h2>
     <div class="grid">
       <div class="card">
-        <h3>Keuntungan Nyata Gabung dibisnis @brofi.business</h3>
+        <h3>Keuntungan Nyata Gabung dibisnis Brofi Business</h3>
         
-<p>✅Potensi Penghasilan 300rb - 2jt/hari </p>
+<p>✅Potensi Penghasilan 300rb - 2jt/hari</p>
 ✅Kerja lewat HP tanpa keluar rumah
 <p>✅Diajarkan strategi marketing</p>
 ✅Tanpa nunjukin muka
@@ -390,35 +384,148 @@ updateCounter();
 
 <p>❌Bisnis anti Riba</p> 
 <p>BISNIS HALAL ✅</p>
-SEMUA PENGHASILAN MENJADI MILIK KAMU SEPENUHNYA TANPA BAGI HASIL KEPADA SIAPAPUN💕
-
-    
-       
+SEMUA PENGHASILAN MENJADI MILIK KAMU SEPENUHNYA TANPA BAGI HASIL KEPADA SIAPAPUN💕       
     </div>
   </section>
   </section>
 <section>
   <h2 class="section-title">Promo Join Hari Ini 🔥</h2>
   <div style="font-size: 1.5rem; margin-bottom: 10px;">
-    <span style="text-decoration: line-through; color: #888;">Rp350.000</span>
-    <span style="color: #d9534f; font-weight: bold;"> Rp50.000 </span>
+    <span style="text-decoration: line-through; color: #000000;">Rp350.000</span>
+    <span class="tebal-bara"> 🔥Rp99.000 </span>
   </div>
   <div style="font-size: 1.2rem; color: #07180b; font-weight: bold;">
-    💥 Diskon 85% untuk 10 orang pertama!
+  💥 Diskon 75% untuk 10 orang pertama!
   </div>
 </section>
-<section>
-  <h2 class="section-title">🔥 Promo Spesial Berakhir Dalam:</h2>
-  <div id="countdown" style="font-size: 2rem; font-weight: bold; color: #e63946; margin-top: 10px;"></div>
-  <p style="margin-top: 10px; color: #555;">Jangan sampai kelewatan! Harga akan kembali normal ke <del>Rp350.000</del></p>
-</section>
 
+<style>
+  .tebal-bara {
+    font-weight: bold;
+    font-size: 2rem;
+    color: #8f3434;
+    padding: 6px 12px;
+    border-radius: 6px;
+    text-shadow:
+      0 0 4px #ff0000,
+      0 0 8px #ff5500,
+      0 0 12px #ffaa00,
+      0 0 18px #ff6600,
+      0 0 24px #cc2200;
+    animation: baraGlow 0.8s infinite alternate;
+  }
+
+  @keyframes baraGlow {
+    0% {
+      text-shadow:
+        0 0 3px #660000,
+        0 0 6px #990000,
+        0 0 10px #cc3300,
+        0 0 14px #ff5500,
+        0 0 18px #ffaa00;
+    }
+    100% {
+      text-shadow:
+        0 0 6px #ff0000,
+        0 0 12px #ff3300,
+        0 0 18px #ff6600,
+        0 0 24px #ffaa00,
+        0 0 30px #ffcc66;
+    }
+  }
+</style>
+<section>
+<div class="grid">
+      <div class="card">
+        <h3>PENGERTIAN BISNIS</h3>
+<p>Bisnis ini adalah bisnis yang bergerak di bidang online. Cara kerjanya hanya mengandalkan handphone dan internet saja.
+</p>
+<p>‎</p>
+<p>Cocok untuk pemula yang:</p>
+<p>• Introvert
+</p>
+<p>• Belum ada pengalaman.
+</p>   
+<p>• Mager hanya dirumah aja.
+</p>
+<p>• Gaptek.
+</p>
+</div>
+<div class="grid">
+      <div class="card">
+        <h3>KEUNTUNGAN GABUNG</h3>
+<p> ✅Penghasilan 500rb - 3jt/hari.
+
+
+</p>✅ 1000% balik modal berlipat-lipat.
+<p> ✅Diajarkan strategi marketing.
+</p>
+✅Dibocorkan Tips and Trik agar bisnis kamu berkembang pesat.
+
+<p>✅Full bimbingan pusat dan private.
+</p>
+<p>✅ Kerja dimanapun dan kapanpun.
+</p>
+<p>✅ Belum ada pengalaman.
+</p>   
+<p> ✅ Mager hanya dirumah aja.
+</p>
+<p>✅ Kerja hanya lewat HP tanpa keluar rumah..
+</p>
+✅ Bisnis Halal dan terpercaya sejak 2020.
+</div>
+  </section>
   <section>
     <h2 class="section-title">Kata Motivasi</h2>
     <p>"Orang yang sukses sangat menyukai prosesnya, bukan hasil instan."</p>
     <p>"Kegigihan berakar dalam mimpi, maka kita juga tidak pernah menyerah."</p>
     <p>"Kesuksesan adalah sebuah perjalanan, bukan tujuan akhir."</p>
   </section>
+<section>
+  <h2 class="section-title">️️🎖️Kalo udah join kamu dapat 3 Bisnis utama :</h2>
+  <div class="faq">
+    <div class="faq-item">
+      <button class="faq-question">1. DATABASE </button>
+      <div class="faq-answer">
+        <p>DATABASE adalah bisnis yang berjalan dibidang online yang di dalamnya terdapat kontak supplier tangan pertama mulai dari fashion, alat rumah tangga, kpop-stuf, otomotif, dll dengan harga yang sangat murah. Sehingga kamu bisa menjualnya kembali dengan keuntungan yang lebih besar.
+</p>
+<p>Jadii database itu isi nya semua fasilitas bisnis termasuk Tips trik sukses berbisnis dan semua link kontak supplier (toko) terlengkap langsung dari pabrik tersedia di sana ya kak inti nya semua yang di butuh untuk bisnis ada disana ya ka
+Untuk detail akan djelaskn setelah join🙏
+</p>
+      </div>
+    </div>
+    <div class="faq-item">
+      <button class="faq-question">️️️️️️2. Online Shop</button>
+      <div class="faq-answer">
+        <p>ONLINE SHOP sendiri terbagi menjadi 2, yaitu dropshiper dan reseller.</p>
+<p>Dropshiper adalah menjual barang milik supplier ke tangan konsumen tanpa menyetok barang terlebih dahulu.
+sedangkan Reseller adalah menjual barang milik supplier ke tangan konsumen dengan cara menyetok barang tersebut.
+Dan untuk suppliernya sendiri sudah disediakan di bisnis ini dan sangat lengkap tentunya.</p>
+<p>Contoh : harga baju di toko kontak supplier yang udah di sediakan seharga 10rb, sedangkan di pasar dekat lingkungan mu dengan kualitas sama dan produk yang sama dengan harga 80rb jadi kamu bisa jual dengan harga 50rb otomatis seluruh pembeli dan pelanggan akan memilih untuk beli dengan mu🤑
+Minsal dalam 1 hari kamu bisa jual 20pcs dengan keuntungan 30rb maka :</p>
+30rb x 20 = 600rb
+<p>600rb x 30hari = 18jt</p>
+Dan seterusnya begitu, ini hanya bisnis olshop belum databasse dan kuota😭
+<p>💖Barang yang kita jual seperti sepatu,tas,baju,peralatan rumah tangga,Skincare,make up,alat motor,dll intinya lengkap ya kak dgn harga produk langsung dari pabrik dan di jamin paling murah serta udah di sediakan 100++ link kontak supplier(toko) nya🫶🙏
+Jangan takut kalo gak laku soal nya udah di sediain TIPS TRIK SUKSES nya mulai cara promosi,caption promosi,cara jual,cara jago jualan dll udah ada tinggal terima beres kerja via hp aja😁😍</p>
+Setelah join nanti akan langsung masuk grup bimbingan dan mendapatkan full bimbingan sampai sukses ya kak🥰
+
+</p>
+      </div>
+    </div>
+   
+</section>
+<section style="text-align: center; padding: 40px 20px;">
+  <h2 class="section-title">📱 Video Singkat Testimoni Full Bimbingan</h2>
+  <video controls style="width: 320px; height: 570px; border-radius: 12px; box-shadow: 0 4px 10px rgba(0,0,0,0.2);">
+    <source src="video-potrait.mp4" type="video/mp4">
+    Browser kamu tidak mendukung video tag.
+  </video>
+  <p style="font-size: 1.1rem; max-width: 600px; margin: 15px auto;">
+    Video singkat testi
+  </p>
+</section>
+
 
   <section>
   <h2 class="section-title">Testimoni</h2>
@@ -487,18 +594,42 @@ SEMUA PENGHASILAN MENJADI MILIK KAMU SEPENUHNYA TANPA BAGI HASIL KEPADA SIAPAPUN
   <p style="font-size: 1.2rem; max-width: 600px; margin: 0 auto 20px;">
     Kesempatan tidak datang dua kali. Sekarang waktu terbaik untuk memulai perjalananmu menuju penghasilan tambahan dan kebebasan finansial. Jangan tunda!
   </p>
-  <a href="https://wa.me/6281219089054" target="_blank" class="wa-button" style="font-size: 1.1rem;">
-    💬 Fix Join!
-  </a>
+  <!-- Sudah kamu punya wa-button, tapi bisa diganti seperti ini agar lebih UI -->
+<a href="https://wa.me/6281219089054" class="wa-button" style="position: fixed; bottom: 20px; right: 20px; border-radius: 50px; background-color: #25D366; color: #fff; padding: 14px 20px; box-shadow: 0 2px 10px rgba(0,0,0,0.3); font-size: 1rem;">
+  💬 Chat Admin
+</a>
+
 </section>
 <section>
   <h2 class="section-title">Cek Surat Legalitas</h2>
   <p>Untuk memastikan legalitas usaha dan surat resmi kami, silakan cek melalui link berikut:</p>
   <div style="margin-top: 20px;">
-    <a href="https://docs.google.com/document/u/0/d/1P-9LXxF2QNFGvqD9_aUi6izz4EjTG1JEOoY2VucoHcE/mobilebasic" target="_blank" style="display: inline-block; margin: 10px; background-color: #4e6e5d; color: white; padding: 10px 20px; border-radius: 5px; text-decoration: none;">SURAT LEGALITAS</a>
+    <a href="https://docs.google.com/document/d/1P-9LXxF2QNFGvqD9_aUi6izz4EjTG1JEOoY2VucoHcE/edit?usp=drivesdk" target="_blank" style="display: inline-block; margin: 10px; background-color: #4e6e5d; color: white; padding: 10px 20px; border-radius: 5px; text-decoration: none;">SURAT LEGALITAS</a>
   </div>
 </section>
-</script>
+<section>
+   <h2 class="section-title">WAJIB DIPERHATIKAN !</h2>
+    <div class="card"> 
+       
+      <p>❌Bukan judi online.
+</p>
+<p>❌Bukan money game/MLM.</p>
+<p>❌Bukan bisnis abal-abal.
+</p>   
+<p>❌Tanpa target penjualan.
+</p>
+<p>❌Tanpa KTP.
+</p>
+<p>❌Tanpa bagi hasil.</p>
+<p>❌Tanpa tuntutan waktu.
+</p>❌Tanpa install aplikasi.
+
+<p>❌Tanpa install aplikasi.
+
+</p>
+<p></p>
+</div>
+  </section>
 <section>
   <h2 class="section-title">FAQ - Pertanyaan yang Sering Diajukan</h2>
   <div class="faq">
@@ -511,7 +642,7 @@ SEMUA PENGHASILAN MENJADI MILIK KAMU SEPENUHNYA TANPA BAGI HASIL KEPADA SIAPAPUN
     <div class="faq-item">
       <button class="faq-question">Berapa biaya untuk join?</button>
       <div class="faq-answer">
-        <p>Harga normal 350K, tapi saat ini sedang promo hanya <strong>50K saja</strong>! Hemat <strong>85%</strong>!</p>
+        <p>Harga normal 350K, tapi saat ini sedang promo hanya <strong>99K saja</strong>! Hemat <strong>75%</strong>!</p>
       </div>
     </div>
     <div class="faq-item">
