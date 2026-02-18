@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Brofi Business - Peluang Bisnis Online Terbaik</title>
+  <title>Aditiaaa Businesss</title>
   <!-- Load Tailwind CSS CDN -->
   <script src="https://cdn.tailwindcss.com"></script>
   <!-- Load Font Awesome for Icons -->
@@ -11,14 +11,16 @@
   <script>
     // Tailwind Configuration for Custom Colors and Animations
     tailwind.config = {
-      theme: {
-        extend: {
-          colors: {
-            'primary': '#0a4300', // Rich dark forest green
-            'secondary': '#22c55e', // Bright lime green for accents
-            'accent': '#fbbf24', // Amber/Gold for highlights
-            'background': '#f0fdf4', // Light pale green background
-          },
+  theme: {
+    extend: {
+      colors: {
+        'primary': '#374151',    // Abu-abu gelap (Slate 700)
+        'secondary': '#6b7280',  // Abu-abu medium (Gray 500)
+        'accent': '#9ca3af',     // Abu-abu muda (Gray 400)
+        'background': '#f3f4f6', // Abu-abu sangat muda (Gray 100)
+      },
+      // ... sisanya biarkan tetap sama
+
           keyframes: {
             pulseShadow: {
               '0%, 100%': { boxShadow: '0 0 0 0 rgba(34, 197, 94, 0.7)' },
@@ -56,15 +58,23 @@
   <style>
     @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
     body { 
-      font-family: 'Poppins', sans-serif; 
-      background-image: linear-gradient(to bottom right, #dcfce7, #f0fdf4); 
-    }
-    .section-title {
-        border-bottom: 3px solid #22c55e;
-        padding-bottom: 8px;
-        display: inline-block;
-        animation: slideIn 1s ease-out;
-    }
+  font-family: 'Poppins', sans-serif; 
+  /* Ganti gradien dengan gambar */
+  background-image: url('bg.jpg'); 
+  background-size: cover;        /* Agar gambar menutupi seluruh layar */
+  background-position: center;   /* Agar gambar tetap di tengah */
+  background-attachment: fixed;  /* Agar background tidak ikut bergerak saat di-scroll (Opsional, memberikan efek elegan) */
+  background-repeat: no-repeat;
+}
+
+
+.section-title {
+    border-bottom: 3px solid #6b7280; /* Warna secondary baru */
+    padding-bottom: 8px;
+    display: inline-block;
+    animation: slideIn 1s ease-out;
+}
+
     .testimonial-slider {
       max-width: 600px;
       margin: 0 auto;
@@ -172,7 +182,7 @@
       <img src="logo.jpg" alt="Logo Brofi Business" class="w-28 h-28 rounded-full border-4 border-secondary animate-bounce" />
       
       <h1 class="text-3xl sm:text-4xl font-extrabold mt-4 mb-2 tracking-wide animate-slideIn">
-        WELCOME TO <br><span class="text-accent">Brofi Business</span>
+        WELCOME TO <br><span class="text-accent">Aditiaaa Businesss</span>
       </h1>
       
       <div class="text-center mt-4 p-3 bg-white text-primary rounded-lg shadow-inner">
@@ -181,7 +191,13 @@
       </div>
     </div>
   </header>
-
+<p style="text-align: center; font-family: 'Poppins', sans-serif; margin-top: 24px; font-size: 16px; color: #333;">
+  Sebelum join, silakan cek juga story dan sorotan di akun 
+  <a href="https://www.instagram.com/aditiaaa_business" target="_blank"
+     style="display: inline-block; padding: 6px 14px; margin-left: 8px; background: linear-gradient(135deg, #f58529, #dd2a7b, #8134af); color: #fff; font-weight: 500; border-radius: 8px; text-decoration: none; box-shadow: 0 2px 6px rgba(0,0,0,0.15); transition: all 0.3s ease;">
+    @aditiaaa_business
+  </a>
+</p>
   <!-- Main Content -->
   <main class="container mx-auto p-4 space-y-12">
     
@@ -195,7 +211,7 @@
         <span class="line-through text-gray-500">Rp350.000</span>
       </div>
       <div class="text-red-700 mb-4">
-        <span class="bara-glow">Rp99.000</span>
+        <span class="bara-glow">Rp60.000</span>
       </div>
       
       <p class="text-xl font-semibold text-red-600 mb-4 animate-pulse">
@@ -212,14 +228,14 @@
       </div>
       
       <!-- Main CTA Button -->
-      <a href="https://wa.me/6285864632842" class="inline-block mt-6 px-8 py-4 bg-secondary text-white font-extrabold text-xl rounded-full shadow-2xl hover:bg-green-600 transition duration-300 animate-pulseShadow">
+      <a href="https://wa.me/6281226095151" class="inline-block mt-6 px-8 py-4 bg-secondary text-white font-extrabold text-xl rounded-full shadow-2xl hover:bg-green-600 transition duration-300 animate-pulseShadow">
         ✅ SAYA MAU JOIN SEKARANG!
       </a>
     </section>
     
     <!-- Manfaat dengan Ikon Baru -->
     <section class="animate-slideIn">
-      <h2 class="section-title text-2xl font-bold text-primary mb-8">Mengapa Brofi Business Pilihan Tepat?</h2>
+      <h2 class="section-title text-2xl font-bold text-primary mb-8">Mengapa Aditiaaa Business Pilihan Tepat?</h2>
       <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
         
         <div class="bg-white p-6 rounded-xl shadow-lg border-b-4 border-accent text-center transform hover:scale-105 transition duration-300">
@@ -261,19 +277,7 @@
     </section>
     
     <!-- Bagian Bukti Transfer (TRUST/VALIDASI SOSIAL) -->
-    <section class="animate-slideIn text-center bg-white p-6 rounded-xl shadow-lg border-t-4 border-red-500">
-        <h2 class="section-title text-2xl font-bold text-red-600 mb-4">BUKTI TRANSFER TERBARU MEMBER</h2>
-        <p class="text-gray-700 mb-6 font-semibold">Lihat sendiri hasil nyata yang sudah dicapai para member kami:</p>
-        
-        <div class="grid grid-cols-2 md:grid-cols-4 gap-4 max-w-4xl mx-auto">
-             <!-- Placeholder Images for Transfer Proofs -->
-             <img src="https://placehold.co/200x350/ffe6e6/cc0000?text=Bukti+Trf+1" alt="Bukti Transfer 1" class="w-full h-auto rounded-lg shadow-md hover:scale-105 transition duration-300 cursor-zoom-in" />
-             <img src="https://placehold.co/200x350/ffe6e6/cc0000?text=Bukti+Trf+2" alt="Bukti Transfer 2" class="w-full h-auto rounded-lg shadow-md hover:scale-105 transition duration-300 cursor-zoom-in" />
-             <img src="https://placehold.co/200x350/ffe6e6/cc0000?text=Bukti+Trf+3" alt="Bukti Transfer 3" class="w-full h-auto rounded-lg shadow-md hover:scale-105 transition duration-300 cursor-zoom-in" />
-             <img src="https://placehold.co/200x350/ffe6e6/cc0000?text=Bukti+Trf+4" alt="Bukti Transfer 4" class="w-full h-auto rounded-lg shadow-md hover:scale-105 transition duration-300 cursor-zoom-in" />
-        </div>
-        <p class="text-sm italic text-gray-500 mt-4">Klik gambar untuk melihat lebih jelas.</p>
-    </section>
+   
 
     <!-- Keuntungan Section (Dihapus karena sudah digantikan oleh Manfaat Ikon) -->
     
@@ -426,7 +430,7 @@
           </button>
           <div class="faq-answer max-h-0 overflow-hidden transition-all duration-500 ease-in-out">
             <div class="p-4 text-gray-700">
-              Tidak ada target penjualan sama sekali. Anda bebas bekerja sesuai waktu luang Anda. Yang terbaik, **penghasilan 100% milik Anda!** Tidak ada bagi hasil dengan pihak Brofi Business.
+              Tidak ada target penjualan sama sekali. Anda bebas bekerja sesuai waktu luang Anda. Yang terbaik, **penghasilan 100% milik Anda!** Tidak ada bagi hasil dengan pihak Aditiaaa Business.
             </div>
           </div>
         </div>
@@ -439,7 +443,7 @@
       <p class="text-white text-lg max-w-xl mx-auto mb-6">
         Jangan biarkan kesempatan emas ini hilang. Buktikan sendiri potensi penghasilan Anda!
       </p>
-      <a href="https://wa.me/6285864632842" class="inline-block px-10 py-4 bg-secondary text-primary font-extrabold text-2xl rounded-full shadow-2xl hover:bg-green-400 transition duration-300 animate-pulseShadow">
+      <a href="https://wa.me/6281226095151" class="inline-block px-10 py-4 bg-secondary text-primary font-extrabold text-2xl rounded-full shadow-2xl hover:bg-green-400 transition duration-300 animate-pulseShadow">
         📩 KETIK: FIX JOIN
       </a>
       <p class="mt-4 text-sm text-gray-200">Hubungi admin untuk info pembayaran dan fasilitas lengkap.</p>
@@ -448,13 +452,13 @@
   </main>
 
   <!-- Sticky Footer CTA -->
-  <a href="https://wa.me/6285864632842" class="fixed bottom-4 right-4 z-50 px-6 py-3 bg-secondary text-white font-extrabold rounded-full shadow-2xl flex items-center space-x-2 text-lg hover:bg-green-600 transition duration-300 animate-pulseShadow">
+  <a href="https://wa.me/6281226095151" class="fixed bottom-4 right-4 z-50 px-6 py-3 bg-secondary text-white font-extrabold rounded-full shadow-2xl flex items-center space-x-2 text-lg hover:bg-green-600 transition duration-300 animate-pulseShadow">
     <span>💬 Chat Admin & Join</span>
   </a>
 
   <!-- Footer -->
   <footer class="bg-primary text-gray-300 text-center p-4 mt-12">
-    <p>&copy; Brofi Business. All Rights Reserved.</p>
+    <p>&copy; Aditiaaa Businesss. All Rights Reserved.</p>
     <p>Payment info & lainnya langsung hubungi admin ke WhatsApp.</p>
   </footer>
 
@@ -585,4 +589,3 @@
   </script>
 </body>
 </html>
-
